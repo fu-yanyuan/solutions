@@ -13,11 +13,15 @@ i can not unzip this **.tar.gz** by the way, original file should be 100+M while
 
 \```
 @:~/VRtraining/PyRetri/data$ ls
+
 101_ObjectCategories.tar.gz  caltech101
+
 @:~/VRtraining/PyRetri/data$ tar xf 101_ObjectCategories.tar.gz
 
 gzip: stdin: not in gzip format
+
 tar: Child returned status 1
+
 tar: Error is not recoverable: exiting now
 \```
 
