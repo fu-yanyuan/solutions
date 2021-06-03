@@ -4,9 +4,11 @@ download dataset via wget
 # download google drive file using wget on linux server
 
 when i try to download [caltech101 dataset](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) on the server, i typed 
+
 `wget http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz`
 
 it seems just downloaded a website, although there do has a file named **101_ObjectCategories.tar.gz**
+
 i can not unzip this **.tar.gz** by the way, original file should be 100+M while this one is just 66KB
 
 \```
