@@ -30,11 +30,11 @@ what happend is, the same as [Souvik's answer](https://stackoverflow.com/questio
 > ...  
 
 ## solution  
-when i clicked the [download link](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz on the website, 
+when i clicked the [download link](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz on the website), 
 it turned to a [google drive](https://drive.google.com/file/d/137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp/view)  
 so i want to [download google drive files using wget](https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99)  
 
-1. find the **FILEID** in the link: `https://drive.google.com/file/d/**137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp**/view`   
+1. find the **FILEID** in the link: https://drive.google.com/file/d/`137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp`/view   
 2. find the **FILENAME** : **101_ObjectCategories.tar.gz**  
 3. command  
     + for small file(less than 100MB) run following command on your terminal:  
