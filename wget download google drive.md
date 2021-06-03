@@ -34,13 +34,13 @@ when i clicked the [download link](http://www.vision.caltech.edu/Image_Datasets/
 it turned to a [google drive](https://drive.google.com/file/d/137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp/view)  
 so i want to [download google drive files using wget](https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99)  
 
-1. find the **FILEID** in the link: https://drive.google.com/file/d/**137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp**/view  
+1. find the **FILEID** in the link: `https://drive.google.com/file/d/**137RyRjvTBkBiIfeYBNZBtViDHQ6_Ewsp**/view`   
 2. find the **FILENAME** : **101_ObjectCategories.tar.gz**  
 3. command  
     + for small file(less than 100MB) run following command on your terminal:  
     `wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O FILENAME`  
     + for lagre file run the following command:  
-    `wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt`
+    ```wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt```   
     (this works well on Ubuntu, but not windows powershell)  
 
 ## Downloading Tools  
@@ -48,7 +48,7 @@ so i want to [download google drive files using wget](https://medium.com/@acpanj
 [2 种从 Linux 终端下载文件的方法 | Linux 中国](https://zhuanlan.zhihu.com/p/268529000)  
 
 ## [unzip a .tar.gz file](https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file)  
-`tar xf 101_ObjectCategories.tar.gz`
+`tar xf 101_ObjectCategories.tar.gz`  
 `tar xf 101_ObjectCategories.tar.gz -C directory_you_want`  
 
 
