@@ -3,7 +3,7 @@
 there are lots of unsuspected bad errors and bad situations to stop my research.  
 as a beginner, i spend lots of time to deal with them.  
 
-the very beginning one, case0 is, i ~~don't even~~ know how to write this *README.md*
+the very beginning one, case 0 is, i ~~don't even~~ know how to write this *README.md*
 [markdown syntax](https://www.runoob.com/markdown/md-tutorial.html)
 
 1. I lost my pip module in python  
