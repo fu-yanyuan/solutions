@@ -13,7 +13,8 @@ the very beginning one, case 0 is, i ~~don't even~~ know how to write this *READ
 3. transfer files over ssh  
     + [scp](https://github.com/fu-yanyuan/solutions/blob/main/3_scp:%20transferring%20files%20over%20ssh.md)  
 4. kill gpu process  
-    + 
+    + [4_kill gpu process](https://github.com/fu-yanyuan/solutions/blob/main/4_kill%20gpu%20process.md)  
+5. 
 
 
 
