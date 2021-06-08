@@ -15,7 +15,9 @@ the very beginning one, case 0 is, i ~~don't even~~ know how to write this *READ
 4. kill gpu process  
     + [4_kill gpu process](https://github.com/fu-yanyuan/solutions/blob/main/4_kill%20gpu%20process.md)  
 5. I cannot run chmod command on windows  
-    + [5](https://github.com/fu-yanyuan/solutions/blob/main/5_chmod%20400%20on%20windows.md)
+    + [5](https://github.com/fu-yanyuan/solutions/blob/main/5_chmod%20400%20on%20windows.md)  
+6. aws stuff  
+    + [6](https://github.com/fu-yanyuan/solutions/blob/main/6_aws%20problems.md)
 
 
 
