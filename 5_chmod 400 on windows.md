@@ -28,18 +28,19 @@ set the permissions of the key
 > 10. Select **OK** to close the Properties window.
 
 You should be able to connect to your Linux instance from Windows via SSH.
-
+  
+## windows command prompt  
 From a Windows command prompt, run the following commands.
 
 From the command prompt, navigate to the file path location of your .pem file.
 
 Run the following command to reset and remove explicit permissions:
 
-`icacls.exe $path /reset`
+`icacls.exe $path /reset`  
 Run the following command to grant Read permissions to the current user:
 
-`icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"`
+`icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"`  
 Run the following command to disable inheritance and remove inherited permissions.
 
-`icacls.exe $path /inheritance:r`
+`icacls.exe $path /inheritance:r`  
 You should be able to connect to your Linux instance from Windows via SSH.
