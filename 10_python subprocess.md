@@ -35,6 +35,46 @@ print('#################################')
 command6 = ['python', 'test_argparse.py', '--dir1=data']
 subprocess.run(command6)
 ```
+#### test_argparse.py
+```python
+import argparse
+
+##################  output  #####################
+
+# PS E:\python3> python test_argparse.py --help
+# test start
+# usage: test_argparse.py [-h] [--dir1 DIR1] [--dir2 DIR2] [--a A] [--b B]
+
+# parser test
+
+# optional arguments:
+#   -h, --help   show this help message and exit
+#   --dir1 DIR1  help for --dir1
+#   --dir2 DIR2
+#   --a A
+#   --b B
+##################################################
+def parser_args():
+    parser = argparse.ArgumentParser(description='parser test')
+    parser.add_argument('--dir1', type=str, default='./data', help='help for --dir1')
+    parser.add_argument('--dir2', type=str, default='helloworld')
+    parser.add_argument('--a', type=int, default=0)
+    parser.add_argument('--b', type=int, default=0)
+
+
+    return parser.parse_args()
+
+def ab(a, b):
+    return a*b
+
+
+if __name__=='__main__':
+    print('test start')
+    args = parser_args()
+    print(args.dir1)
+    print(args.dir2)
+    print(ab(args.a, args.b))
+```
 
 #### training scripts
 I want to do 2 4-hours experiments in a row when I sleep.  
