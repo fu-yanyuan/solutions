@@ -1,6 +1,13 @@
 AssertionError: Torch not compiled with CUDA enabled
 ---  
 
+### the problem 
+```python
+import torch
+print(torch.__version__)
+print(rorch.cuda.is_available()) # False
+```  
+
 ### how to check CUDA version  
 1. 
 ```
@@ -42,3 +49,8 @@ cat /usr/local/cuda/version.txt
 
 CUDA Version 10.0.130
 ```
+
+we can see that method 1 shows a different CUDA version (11.0) with 2 and 3's CUDA version (10.0.130)  
+that's the difference of driver API and runtime API. we should refer to the runtime API, which is the result of method 2 and method 3.  
+
+### 
