@@ -41,7 +41,7 @@ fern_test_spiral_150000_rgb.mp4                                                 
     + find the file name from the current directory 
  
 #### referrences:  
-[install anaconda youtube](https://www.youtube.com/watch?v=0EuDhKXq_aM)
+[install anaconda youtube](https://www.youtube.com/watch?v=0EuDhKXq_aM)  
 [installation/uninstallation](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)  
 [AWS EC2: Install Anaconda on Linux Instance](https://medium.com/@GalarnykMichael/aws-ec2-part-3-installing-anaconda-on-ec2-linux-ubuntu-dbef0835818a)  
 
@@ -53,6 +53,12 @@ fern_test_spiral_150000_rgb.mp4                                                 
 ## update python2 or miniconda2  
 to be done : [upgrade python](https://rajputankit22.medium.com/upgrade-python-2-7-to-3-6-and-3-7-in-ubuntu-97d2727bf911)  
 if needed : [from miniconda2 to miniconda3](https://stackoverflow.com/questions/58673299/how-to-migrate-safely-from-miniconda2-to-miniconda3)  
+
+## conda: command not found  
+1. open `~/.bashrc`  
+2. add ```export PATH=/Users/XXX/opt/anaconda3/bin:$PATH``` to the last line  
+3. run `source ~/.bashrc`  
+4. check `conda --version` 
 
 
 
