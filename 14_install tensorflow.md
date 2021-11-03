@@ -2,6 +2,7 @@
 ```
 conda create -n tf-gpu tensorflow-gpu cudatoolkit
 ```  
+refer to : https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/
 ### conda list 
 ```
 # Name                    Version                   Build  Channel
