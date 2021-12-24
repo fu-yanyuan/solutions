@@ -5,7 +5,7 @@ Run .ipynb on server
   1. ssh to the remote server via vscode
   2. click the `Extensions` (ctrl+shift+X)  
      - you can see `LOCAL - INSTALLED` and `SSH: SERVER_NAME - INSTALLED` 
-     - make sure that python extension and jupyter extension are installed in `SSH: SERVER_NAME - INSTALLED`
+     - make sure that python extension and jupyter extension are installed in `SSH: SERVER_NAME - INSTALLED`  
        (extensions intalled locally are not automatically installed on remote server)
   3. open a .ipynb file or create a new one.
      - open command palette `view->command palatte` or ctrl+shift+P
