@@ -16,4 +16,5 @@ Run .ipynb on server
      - `>Python: Select Interpreter`
      - choose a conda env
      - if missing some modules, open the terminal and just use conda to install it.
+     - ipykernel package. `conda install -n gans ipykernel --update-deps --force-reinstall`
   5. run the code
