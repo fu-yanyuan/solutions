@@ -16,3 +16,10 @@ dependencies:
     - numpy
     - matplotlib
 ```
+
+
+#### export environment
+BTW, if need to export current env as a .yml
+```python
+$ conda env export > myenv.yaml
+```
