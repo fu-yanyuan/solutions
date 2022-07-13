@@ -15,6 +15,10 @@ Run .ipynb on server
      - open command palette `view->command palatte` or ctrl+shift+P
      - `>Python: Select Interpreter`
      - choose a conda env
+       * if target conda env is not in the list
+       * click `+ Enter interpreter path...`
+       * click `Browse your file system to find a Python interpreter.`
+       * input `/home/ubuntu/miniconda3/envs/YOUR_ENV_NAME/PYTHON_IN_THIS_ENV`
      - if missing some modules, open the terminal and just use conda to install it.
      - ipykernel package. `conda install -n gans ipykernel --update-deps --force-reinstall`
   5. run the code
